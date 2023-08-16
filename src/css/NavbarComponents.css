@@ -1,0 +1,21 @@
+.nestlogo {
+    width: 86px;
+
+}
+.textcolor{
+    color: green;
+}
+.searchicon{
+    position: absolute;
+    left: 145px;
+}
+.input-box{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 6%;
+}
+.main-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

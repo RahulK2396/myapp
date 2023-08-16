@@ -1,0 +1,26 @@
+.main_card{
+    justify-content: center;
+    height: 461px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 248px;
+    background-color: white;
+    width: 252px;
+    justify-content: center;
+    margin-left: 23px;
+    border: 1px solid #77cf17;
+    border-radius: 12px;
+}
+
+@media(max-width:424px){
+    .deals-div {
+       overflow: scroll !important;
+       display: flex !important;
+       flex-direction: row !important;
+       flex-wrap: nowrap !important;
+       
+    }
+}

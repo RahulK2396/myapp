@@ -1,0 +1,38 @@
+/* .card-div{
+    gap: 15px;
+} */
+.card-div::-webkit-scrollbar{
+    display: none;
+}
+
+card-data {
+     max-width: unset !important;
+}
+
+@media (min-width: 375px) {
+    .main-div1{
+        width: 156px !important;
+        height: 223px;
+    } 
+        
+}
+
+@media (min-width: 425px) {
+    .main-div1{
+        width: 174px !important;
+        height: 223px;
+    } 
+        
+}
+
+
+@media (max-width: 375px) {
+    .main-div1{
+        width: 129px !important;
+        height: 223px;
+    } 
+    .category-heading{
+        font-size: 16px !important;
+    }
+        
+}

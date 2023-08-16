@@ -1,0 +1,49 @@
+.carousal-1-title {
+    font-size: 72px;
+}
+.carousal-subheading {
+    font-size: 26px;
+    color: #68768a;
+}
+.carousal-headingbox {
+    position: absolute;
+    margin-left: 10%;
+    top: 21%;
+    width: 45%;
+    /* letter-spacing: 15px; */
+    font-weight: bold;
+    font-size: 78px;
+   z-index: 2;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 49px;
+    
+    padding-bottom: 40px;
+
+
+}
+.carousal-image1{
+     width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    background-size: cover;
+    /* position: absolute; */
+    z-index: 1;
+}
+@media (max-width:768px){
+    .carousal-headingbox{
+        display: flex;
+        flex-direction: column;
+        width: 72%;
+    }
+}
+@media(max-width:426px){
+    .carousal-headingbox {
+        /* width: 100%; */
+    }
+    .carousal-1-title{
+        /* display: none; */
+        font-size: 45px;
+    }
+}

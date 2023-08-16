@@ -1,0 +1,17 @@
+.imagesize{
+    width: 84px;
+}
+.h4-listInfo{
+    margin-bottom: 29px;
+    border-bottom: 1px solid #ececec;
+    margin-left: 35px;
+}
+.div-gap {
+    gap: 19px;
+}
+.main-div-listInfo{
+    /* margin-top: 40px; */
+}
+.separate-div {
+    width: 345px;
+}

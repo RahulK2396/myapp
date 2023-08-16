@@ -1,0 +1,14 @@
+.listdetails{
+    list-style: none !important;
+}
+@media (min-width: 1023px) {
+    .sub-nest-div{
+        width: 16% !important;    
+    }      
+}
+.margin{
+    margin-left: 18px;
+}
+.li_gap{
+    margin-bottom: 10px;  
+}

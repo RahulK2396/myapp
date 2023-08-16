@@ -1,0 +1,22 @@
+.tagimage{
+    width: 274px;
+    height: 148px;
+}
+.tagGap{
+    gap: 1%;
+}
+@media(max-width:1025px){
+    .tagimage {
+        width: 243px;
+    }
+}
+@media(max-width:426px){
+    .tagimage {
+        width: 49%;
+    }
+}
+@media(max-width:321px){
+    .tagimage {
+        width: 98%;
+    }
+}

@@ -1,0 +1,40 @@
+.content-data {
+    position: absolute;
+    display: flex;
+    gap: 46px;
+    padding: 0px -6px;
+    /* width: 67%; */
+    padding: 0 50px;
+    flex-direction: column;
+    margin-top: 39px;
+}
+.image-bestSell {
+    position:'relative';
+    height: 432px;
+    object-fit: "cover"
+}
+.bestselldiv{
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    overscroll-behavior: 'smooth';
+    display: flex;
+    flex-direction: row;
+}
+.bestselldiv::-webkit-scrollbar{
+    display: none;
+}
+.scroll-content::-webkit-scrollbar{
+    display: none;
+}
+.iconbestsell{
+    position: absolute;
+    height: 373px !important; 
+    width: 43px !important;
+    color: #1e7b47;
+}
+.scroll-content{
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    display: flex;
+    flex-direction: row; 
+}

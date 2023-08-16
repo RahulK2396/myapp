@@ -1,0 +1,26 @@
+.card-section{
+    gap: 40px;
+}
+
+.productcard-div {
+    margin: 29px;
+    position: relative;
+}
+
+
+@media(min-width:1025px){
+    .productcard-div {
+        width: 29% !important
+    }
+    .content-product {
+       margin-top: 30px;
+    }
+}
+
+@media(min-width:424px){
+    .content-product {
+       top: 16% !important;
+    }
+}
+
+

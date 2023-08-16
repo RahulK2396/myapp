@@ -1,0 +1,28 @@
+.subscribe-div{
+    background-image: url('https://boostify-nesst.myshopify.com/cdn/shop/files/bg-newletter.png?v=1684467574&width=1584');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.subscribe-subheading {
+   
+    color: #68768a;
+}
+.subscribtion{
+    padding-top: 3%;
+    /* position: absolute; */
+    margin-left: 10%;
+    top: 21%;
+    width: 45%;
+    /* letter-spacing: 15px; */
+    font-weight: bold;
+    font-size: 78px;
+    z-index: 2;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
