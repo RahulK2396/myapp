@@ -17,7 +17,7 @@ export default function MainPage() {
     return(
         <div>
             <NavbarComponent/>
-            hghgvhjuughj
+            
             <CarouselItem/>
             <Categories/>
             <ProductAdd/>

@@ -64,7 +64,7 @@ function handleItemDetails (data){
                                         alt={item.title}
                                     />
                                 </div>
-                                <CardContent  >
+                                <CardContent>
                                     {/* <Typography gutterBottom variant="h5" component="div"  >
                                     {item.title}
                                 </Typography> */}

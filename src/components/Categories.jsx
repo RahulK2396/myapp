@@ -139,9 +139,9 @@ export default function Categories() {
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                       
                                         image={item.image}
                                         alt={item.title1}
+                                       
                                     />
                                     </div>
                                     <CardContent className='d-flex flex-column justify-content-center align-items-center'>
